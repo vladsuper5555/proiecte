@@ -11,7 +11,7 @@ Adaugare<br>
 <ul>
     <li> <a href="modificare_disciplina.php">disciplina </a></li>
     <li> <a href="modificare_clasa.php">clasa </a></li>
-    <li>elev</li>
+    <li> <a href='modificare_elev.php'>elev </a></li>
     <li>situatie</li>
 </ul>
 <br>Stergere<br>
