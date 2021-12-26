@@ -10,7 +10,7 @@ Adaugare<br>
 <br>Modificare<br>
 <ul>
     <li> <a href="modificare_disciplina.php">disciplina </a></li>
-    <li>clasa</li>
+    <li> <a href="modificare_clasa.php">clasa </a></li>
     <li>elev</li>
     <li>situatie</li>
 </ul>

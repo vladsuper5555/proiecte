@@ -1,7 +1,10 @@
 <?php
+$id = $_POST['de_modificat'];
+$newval = $_POST['denumire_clasa'];
+
 $conexiune = mysqli_connect('localhost', 'root', '');
 mysqli_select_db($conexiune, 'postuniv');
 
-mysqli_query($conexiune, 'update elev set nume_elev="' . $_POST['nume'] . '", prenume_elev="' . $_POST['prenume'] . '", id_clasa=' . $_POST['clasa'] . ' where id=' . $_SESSION['id_elev']);
+$res = mysqli_query($conexiune, "update clasa set denumire = '" . $newval . "' where id_clasa = '" . $id . "'");
 
 header("Location: http://localhost/proiecte/PHP%20Project%203/Aplicatie_BD/index.php");
