@@ -15,9 +15,16 @@
     <div>
         Data <input type='date' name='data_nota' />
     </div>
-    <select name='nota' size='3'>
-        <?php
-        for ($i = 1; $i <= 10; ++$i)
-            echo '<option value = "' . $i . '">' . $i . '</option>';
-        ?>
+    <div>
+        Nota
+        <select name='nota' size='3'>
+            <?php
+            for ($i = 1; $i <= 10; ++$i)
+                echo '<option value = "' . $i . '">' . $i . '</option>';
+            ?>
+        </select>
+    </div>
+    <div>
+        <input type='submit' value='submit' />
+    </div>
 </form>
