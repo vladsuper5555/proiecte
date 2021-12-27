@@ -6,12 +6,15 @@
 </form>
 
 <?php
-$conexiune = mysqli_connect("localhost", "root", "");
+$conexiune = mysqli_connect('localhost', 'root', '');
 mysqli_select_db($conexiune, 'postuniv');
 
-$selectie_discipline = mysqli_query($conexiune, "select denumire_disc from disciplina");
+$selectie_discipline = mysqli_query(
+	$conexiune,
+	'select denumire_disc from disciplina'
+);
 while ($inregistrari = mysqli_fetch_array($selectie_discipline)) {
-	echo $inregistrari['denumire_disc'] . "<br>";
+	echo $inregistrari['denumire_disc'] . '<br>';
 }
 
 

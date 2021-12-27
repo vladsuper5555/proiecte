@@ -1,5 +1,17 @@
 <form method="post" action="situatie_adaugata.php">
     <div>
+        Elev <select name='elev' size="3" style="margin: 5px">
+            <?php
+            $conn = mysqli_connect('localhost', 'root', '');
+            mysqli_select_db($conn, 'postuniv');
+
+            $materii = mysqli_query($conn, 'select * from elev');
+            while ($i = mysqli_fetch_array($materii))
+                echo "<option value = '" . $i['id'] . "'>" . $i['nume_elev'] . ' ' . $i['prenume_elev'] . "</option>";
+
+            ?>
+        </select>
+        <br>
         Materie <select name='materie' size="3" style="margin: 5px">
             <?php
             $conn = mysqli_connect('localhost', 'root', '');
