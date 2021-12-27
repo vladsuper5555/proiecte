@@ -38,3 +38,4 @@
 
 
 </form>
+<br><a href="index.php">Inapoi</a>

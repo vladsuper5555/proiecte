@@ -27,3 +27,4 @@ Lista notelor sortate pe discipline
 	?>
 
 </ul>
+<br><a href="index.php">Inapoi</a>

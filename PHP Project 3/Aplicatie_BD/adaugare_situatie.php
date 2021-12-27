@@ -39,4 +39,5 @@
     <div>
         <input type='submit' value='submit' />
     </div>
+    <br><a href="index.php">Inapoi</a>
 </form>

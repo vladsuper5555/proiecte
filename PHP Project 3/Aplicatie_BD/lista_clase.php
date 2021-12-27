@@ -1,4 +1,4 @@
-Lista notelor sortate pe discipline
+Lista notelor sortate pe clase
 <ul>
 	<?php
 	function find_name_materie($conn, $id_materie)
@@ -29,3 +29,4 @@ Lista notelor sortate pe discipline
 	?>
 
 </ul>
+<br><a href="index.php">Inapoi</a>

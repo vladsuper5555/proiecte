@@ -17,3 +17,4 @@
     <input type="Submit" value="OK">
 
 </form>
+<br><a href="index.php">Inapoi</a>

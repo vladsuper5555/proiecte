@@ -23,6 +23,6 @@ Adaugare<br>
 <br> <a href='lista_clase.php'>Situatie clasa </a><br>
 <br>Situatie elev<br>
 <ul>
-    <li><a href='vizualizare_disciplina.php'>note </a></li>
-    <li>medie</li>
+    <li><a href='lista_elevi.php'>note </a></li>
+    <li><a href='vizualizare_medie_elev.php'>medie</a></li>
 </ul>

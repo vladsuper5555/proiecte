@@ -13,3 +13,5 @@
     </select>
     <br>
     <input type="submit" value="Trimite">
+</form>
+<br><a href="index.php">Inapoi</a>
