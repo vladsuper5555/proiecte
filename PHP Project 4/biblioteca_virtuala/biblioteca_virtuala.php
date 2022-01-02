@@ -6,15 +6,14 @@
 </ul>
 
 <ul id='carte'> Comenzi pentru carte
-    <li> Adaugare Carte </li>
-    <li> Modificare Carte </li>
-    <li> Stergere Carte </li>
+    <li> <a href='./carti/front_end/adaugare_carte.php'> Adaugare Carte </a> </li>
+    <li> <a href='./carti/front_end/modificare_carte.php'> Modificare Carte </a> </li>
+    <li> <a href='./carti/front_end/stergere_carte.php'> Stergere Carte </a> </li>
 </ul>
 
 <ul id='imprumut'> Comenzi pentru imprumut
-    <li> Adaugarea Imprum </li>
-    <li> Modificare Imprum </li>
-    <li> Stergere Imprum </li>
+    <li> <a href='./imprumuturi/front_end/adaugare_imprumut.php'> Adaugarea Imprum </a> </li>
+    <li> <a href='./imprumuturi/front_end/stergere_imprumut.php'> Stergere Imprum </a> </li>
 </ul>
 
 Afisare date
