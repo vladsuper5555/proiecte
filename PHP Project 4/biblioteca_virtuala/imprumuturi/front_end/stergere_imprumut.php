@@ -26,3 +26,4 @@ while ($i = mysqli_fetch_array($res)) {
     echo '<input type = "submit" name = "submit" value = "Sterge" />';
     echo '</form>';
 }
+echo "<a href='../../biblioteca_virtuala.php'> Inapoi </a>";

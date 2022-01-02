@@ -16,6 +16,4 @@
     <li> <a href='./imprumuturi/front_end/stergere_imprumut.php'> Stergere Imprum </a> </li>
 </ul>
 
-Afisare date
-
 </html>

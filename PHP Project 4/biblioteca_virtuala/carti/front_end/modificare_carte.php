@@ -19,5 +19,6 @@
     <input type='number' name='an' /> <br>
     <input type='submit' value='Continua'>
 </form>
+<a href='../../biblioteca_virtuala.php'> Inapoi </a>
 
 </html>

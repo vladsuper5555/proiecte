@@ -23,3 +23,4 @@
     <input type='date' name='in' /> <br>
     <input type='submit' value='Trimite' />
 </form>
+<a href='../../biblioteca_virtuala.php'> Inapoi </a>
